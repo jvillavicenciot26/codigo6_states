@@ -1,10 +1,12 @@
 import 'package:codigo6_states/provider/example_provider.dart';
+import 'package:codigo6_states/provider/person_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    TextEditingController personController = TextEditingController();
     //context.watch sirve para ver los datos del provider
     //context.read sirve para ejecutar los metodos del provider
 
@@ -24,7 +26,9 @@ class RegisterPage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            TextField(),
+            TextField(
+              controller: personController,
+            ),
             const SizedBox(
               height: 12.0,
             ),
@@ -35,9 +39,13 @@ class RegisterPage extends StatelessWidget {
                 //     Provider.of<ExampleProvider>(context, listen: false);
                 // exampleProvider.agregaContador();
 
-                Provider.of<ExampleProvider>(context, listen: false)
-                    .agregaContador();
+                // Provider.of<ExampleProvider>(context, listen: false)
+                //     .agregaContador();
                 //context.read<ExampleProvider>().agregaContador();
+                print(personController.text);
+                PersonProvider personProvider =
+                    Provider.of<PersonProvider>(context, listen: false);
+                personProvider.addPerson(personController.text);
               },
               child: const Text(
                 "Registrar",
