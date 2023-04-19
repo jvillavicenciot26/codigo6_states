@@ -1,26 +1,29 @@
 import 'package:flutter/material.dart';
 
 class RegisterPage extends StatelessWidget {
-  const RegisterPage({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.pink,
-        title: Text("Registro"),
+        title: const Text("Registro"),
       ),
-      body: Column(
-        children: [
-          TextField(),
-          SizedBox(
-            height: 12.0,
-          ),
-          ElevatedButton(
-            onPressed: () {},
-            child: Text("Registrar"),
-          ),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            TextField(),
+            const SizedBox(
+              height: 12.0,
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text(
+                "Registrar",
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
