@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "310360310969",
+    "firebase_url": "https://shoesapp-36fdd-default-rtdb.firebaseio.com",
+    "project_id": "shoesapp-36fdd",
+    "storage_bucket": "shoesapp-36fdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310360310969:android:11d0cc4b7f4006eaf00768",
+        "android_client_info": {
+          "package_name": "com.example.codigo6_states"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310360310969-pfe3t7glui08t99cb5qca1avuevmq6jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjsVDl4V_fGkebXU9wl_ez66kz1RznjOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310360310969-pfe3t7glui08t99cb5qca1avuevmq6jf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310360310969-iuuc7u93tavdhio5q2g3kpcimdjkppba.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.codigo.shoesapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310360310969:android:ae01bbc0222b16e6f00768",
+        "android_client_info": {
+          "package_name": "pe.codigo.shoesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310360310969-c01dr8jt83o2mok86qnl483017617ll7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.codigo.shoesapp",
+            "certificate_hash": "90c7e8a2b4cf29227a05881fd60095d94035a533"
+          }
+        },
+        {
+          "client_id": "310360310969-pfe3t7glui08t99cb5qca1avuevmq6jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjsVDl4V_fGkebXU9wl_ez66kz1RznjOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310360310969-pfe3t7glui08t99cb5qca1avuevmq6jf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310360310969-iuuc7u93tavdhio5q2g3kpcimdjkppba.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.codigo.shoesapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310360310969:android:39bbbc9b50dbab3ef00768",
+        "android_client_info": {
+          "package_name": "pe.truxstudio.shoesappclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310360310969-n1dnm5ddjtt7br6ojur59a4tn84aeqev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.truxstudio.shoesappclient",
+            "certificate_hash": "90c7e8a2b4cf29227a05881fd60095d94035a533"
+          }
+        },
+        {
+          "client_id": "310360310969-pfe3t7glui08t99cb5qca1avuevmq6jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjsVDl4V_fGkebXU9wl_ez66kz1RznjOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310360310969-pfe3t7glui08t99cb5qca1avuevmq6jf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310360310969-iuuc7u93tavdhio5q2g3kpcimdjkppba.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.codigo.shoesapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
