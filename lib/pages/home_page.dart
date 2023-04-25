@@ -1,8 +1,10 @@
+import 'package:codigo6_states/controllers/post_controller.dart';
 import 'package:codigo6_states/pages/register_page.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+  final postController = Get.put(PostController());
 
   @override
   Widget build(BuildContext context) {
@@ -22,18 +24,28 @@ class HomePage extends StatelessWidget {
         },
         child: Icon(Icons.add),
       ),
-      body: ListView(
-        children: [
-          ListTile(
-            title: Text("Nombre del item"),
-            subtitle: Text("Descripcion del item"),
-          ),
-          ListTile(
-            title: Text("Nombre del item"),
-            subtitle: Text("Descripcion del item"),
-          ),
-        ],
+      body: Obx(
+        () => postController.isLoading.isTrue
+            ? CircularProgressIndicator()
+            : ListView.builder(
+                itemCount: postController.posts.length,
+                itemBuilder: (BuildContext context, int index) {
+                  return Text(postController.posts[index]["title"]);
+                },
+              ),
       ),
+      // ListView(
+      //   children: [
+      //     ListTile(
+      //       title: Text("Nombre del item"),
+      //       subtitle: Text("Descripcion del item"),
+      //     ),
+      //     ListTile(
+      //       title: Text("Nombre del item"),
+      //       subtitle: Text("Descripcion del item"),
+      //     ),
+      //   ],
+      // ),
     );
   }
 }
